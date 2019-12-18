@@ -57,13 +57,13 @@ BOOL CMFCDemoDlg::OnInitDialog()
 ### WTL
 
 * 添加`ImageButton.h`项目中
-* `CCMainDlg`类包含头文件 `ImageButton.h`
-* 在`CCMainDlg`的`BEGIN_MSG_MAP(CMainDlg)`与`END_MSG_MAP()`之间加`REFLECT_NOTIFICATIONS()`用来反射`WM_DRAWITEM`消息, 随后自行加入`COMMAND_HANDLER()`绑定按钮事件
+* `CMainDlg`类包含头文件 `ImageButton.h`
+* 在`CMainDlg`的`BEGIN_MSG_MAP(CMainDlg)`与`END_MSG_MAP()`之间加`REFLECT_NOTIFICATIONS()`用来反射`WM_DRAWITEM`消息, 随后自行加入`COMMAND_HANDLER()`绑定按钮事件
 * 添加`CImageButton`类型的成员变量
 * `OnInitDialog()`函数中调用`btn.SubclassWindow()`方法与`btn.SetImages()`方法
 
 
-#### CCMainDlg.h
+#### CMainDlg.h
 
 ```cpp
 #pragma once
