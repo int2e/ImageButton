@@ -1,5 +1,5 @@
 # CImageButton
-MFC/WTL CImageButton 支持[`BMP`,`GIF`,`JPEG`,`PNG`,`TIFF`]
+MFC/WTL CImageButton 支持[`BMP`,`GIF`,`JPEG`,`PNG`,`TIFF`], 支持高DPI
 
 `CImageButton`是一个支持`4种状态`图形显示的按钮控件
 + 正常状态
