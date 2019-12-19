@@ -49,7 +49,7 @@ BOOL CMFCDemoDlg::OnInitDialog()
 	// 开启自动大小, 跟随图片宽高
 	m_btnTest.AutoSize();
 
-	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
+    // ....
 }
 ```
 
